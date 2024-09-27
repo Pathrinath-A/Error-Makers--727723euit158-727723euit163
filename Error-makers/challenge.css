@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1a541; 
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: #1e4640; 
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
